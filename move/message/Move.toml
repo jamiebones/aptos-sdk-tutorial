@@ -1,0 +1,15 @@
+[package]
+name = "Message"
+version = "1.0.0"
+authors = ["Osikhena James Oshomah"]
+
+[addresses]
+Message = "_"
+
+[dev-addresses]
+Message = "0x147"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
